@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma&display=swap');
+
+
+*{
+    background: url(../img/background.jpg);
+    background-size: cover;    
+    background-attachment: fixed;
+    position: relative;  
+}
+
+*,
+*::before, 
+*::after{  
+    margin: 0;    
+    padding: 0;
+    box-sizing: border-box;  /* empuja el contenido hacia dentro, si es content-box, pero el tamaño lo tira para afuera*/
+}
+
+
+h1{
+    font-family: Atma; 
+    font-weight: 700;
+    color: #e8e9e8 !important;
+    text-decoration: none !important;
+}
+span{
+    color: rgb(74, 70, 116) !important;
+}
+
+ul a{
+    font-size:1.5rem !important;
+    color: #e8e9e8 !important;
+}
+.card-group{
+    border-width: 0;
+    border-style: none;
+    border-color: transparent;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+
+img{
+    width:100% !important;
+}
+
+
+picture{
+    width: 100px !important;
+    height: 120px!important;
+}
+
+body{
+    min-height: 100vh !important;
+}
+
+header{
+    margin-bottom: 5rem;
+}
