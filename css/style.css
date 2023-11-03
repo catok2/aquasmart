@@ -53,9 +53,9 @@ picture{
 }
 
 body{
-    min-height: 100vh !important;
+    min-height: 90vh !important;
 }
 
 header{
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
